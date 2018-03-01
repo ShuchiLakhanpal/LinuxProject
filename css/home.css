@@ -1,0 +1,45 @@
+
+
+.container {
+  position: absolute;
+  /*width: 50%;*/
+  display: flex;
+
+}
+
+
+.mainImage
+{
+  display: inline-flex;
+}
+
+#imgSliderHome {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    width: 452px;
+    height: 242px;
+    margin-bottom: 4em;
+}
+
+/**/
+
+.ImgHouse
+{
+	width: 620px;
+	/*display: inline-flex;*/
+    height: 480px;
+    max-width: 600px;
+}
+
+.figHome
+{
+	position: absolute;
+	margin-top: 27em;
+}
+
+.centerHome
+{
+	display: inline-flex;
+}

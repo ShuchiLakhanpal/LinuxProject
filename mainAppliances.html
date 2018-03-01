@@ -1,0 +1,310 @@
+<!DOCTYPE Html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" />
+    <title>Linux Project</title>
+    <link rel="shortcut icon" type="images/x-icon" href="images/logotext.png" width="1em" height="1em">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/mainAppliances.css">
+    <link rel="stylesheet" href="css/furniture.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/logIn.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
+     <script type="text/javascript" src="js/menuMobile.js"></script>
+  </head>
+  <body>
+    <section id="wrapper" class="container-fluid">
+      <section>
+        <header class="contentAll">
+          <section id="searchSect" class="row">
+            <section id="logoImg">
+            </section>
+            <section id="sectSearch" class="col-md-6 center">
+              <input type="text" class="searchTerm center" placeholder="What are you looking for?">
+              <button type="submit" class="searchButton">
+              <i class="fa fa-search"></i>
+              </button>
+            </section>
+          </section>
+          <section id="cartLogIn">
+            <button type="button" class="logIn" data-toggle="modal" data-target="#myModal">Log In</button>
+            <div class="alignCart">
+              <a href="cart.html">
+                <img src="images/cart.png" alt="cart" id="cart">
+              </a>
+            </div>
+          </section>
+          <div id="mySidenav" class="sidenav">
+            <nav class="navList standard-nav row" >
+              <section class="col-md-6 center-block" style="float: none;">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <ul id="topNav" >
+                  <li><span  class="colorList toggleHome">Home</span>
+                    <div>
+                      <section>
+                        <ul class="panelHome">
+                          <li><a href="Home.html"><h4>Home Décor</h4></a></li>
+                          <li><a href="appliances.html" class="subAnchor">Mirrors</a></li> <br>
+                          <li><a href="appliances.html" class="subAnchor">Clocks</a></li> <br>
+                          <li><a href="appliances.html" class="subAnchor">Wall Décor</a></li>
+                        </ul>
+                      </section>
+                      <section>
+                        <ul class="panelHome">
+                          <li><a href="Home.html" ><h4>Kitchen</h4></a></li>
+                          <li><a href="appliances.html" class="subAnchor">Cookware</a></li> <br>
+                          <li><a href="appliances.html" class="subAnchor">Bakeware</a></li> <br>
+                          <li><a href="appliances.html" class="subAnchor">Cutlery</a></li>
+                        </ul>
+                      </section>
+                      <section>
+                        <ul class="panelHome">
+                          <li><a href="Home.html"><h4>Dining</h4></a></li>
+                          <li><a href="appliances.html" class=" subMenuAlign subAnchor">Tea Table</a></li> <br>
+                          <li><a href="appliances.html" class="subMenuAlign subAnchor">Dinnerware</a></li> <br>
+                          <li> <a href="appliances.html" class="subMenuAlign subAnchor">Flatware</a></li>
+                        </ul>
+                      </section>
+                    </div>
+                  </li>
+                  <li ><span class="colorList alignList toggleAppl current">Appliances</span>
+                    <div>
+                      <section>
+                        <ul class="panelAppl">
+                          <li><a href="mainAppliances.html"><h4>Small Appliances</h4></a></li>
+                          <li><a href="appliances.html.html" class="subAnchor">Compact Refrigerators</a></li> <br>
+                          <li><a href="appliances.html" class="subAnchor">Vacuums</a></li> <br>
+                          <li><a href="appliances.html" class="subAnchor">Wall Décor</a></li>
+                        </ul>
+                      </section>
+                      <section  >
+                        <ul class="panelAppl">
+                          <li><a href="mainAppliances.html" ><h4>Laundry</h4></a></li>
+                          <li><a href="appliances.html" class="subAnchor">Washers</a></li> <br>
+                          <li><a href="appliances.html" class="subAnchor">Dryers</a></li> <br>
+                          <li><a href="appliances.html" class="subAnchor">Washer and Dryer Pairs</a></li>
+                        </ul>
+                      </section>
+                      <section >
+                        <ul class="panelAppl">
+                          <li><a href="mainAppliances.html"><h4>More</h4></a></li>
+                          <li><a href="appliances.html" class=" subMenuAlign subAnchor">Save on appliances</a></li> <br>
+                          <li><a href="appliances.html" class="subMenuAlign subAnchor">Dinnerware</a></li> <br>
+                          <li> <a href="appliances.html" class="subMenuAlign subAnchor">New Arrivals</a></li>
+                        </ul>
+                      </section>
+                    </div>
+                  </li>
+                  <li><span class="colorList 
+              toggleList">Furniture</span>
+                    <div>
+                      <section>
+                        <ul class="panelFur">
+                          <li><a href="Furniture.html"><h4>Living Room</h4></a></li>
+                          <li><a href="appliances.html" class="subAnchor">Sofas</a></li> <br>
+                          <li><a href="appliances.html" class="subAnchor">Chairs</a></li> <br>
+                          <li><a href="appliances.html" class="subAnchor">Chairs</a></li> <br>
+                          <li><a href="appliances.html" class="subAnchor">Chairs</a></li> <br>
+                          <li><a href="appliances.html" class="subAnchor">Ottomans</a></li>
+                        </ul>
+                      </section>
+                      <section>
+                        <ul class="panelFur">
+                          <li><a href="Furniture.html" ><h4>Bed Room</h4></a></li>
+                          <li><a href="appliances.html" class="subAnchor">King Beds</a></li> <br>
+                          <li><a href="appliances.html" class="subAnchor">Queen Beds</a></li> <br>
+                          <li><a href="appliances.html" class="subAnchor">Storage Beds</a></li>
+                        </ul>
+                      </section>
+                      <section>
+                        <ul class="panelFur">
+                          <li><a href="Furniture.html"><h4>Kids</h4></a></li>
+                          <li><a href="appliances.html" class=" subMenuAlign subAnchor">Bunk Beds</a></li> <br>
+                          <li><a href="appliances.html" class="subMenuAlign subAnchor">Twin Beds</a></li> <br>
+                          <li><a href="appliances.html" class="subMenuAlign subAnchor">Chairs</a></li> <br>
+                          <li> <a href="appliances.html" class="subMenuAlign subAnchor">Desks&Hutches</a></li>
+                        </ul>
+                      </section>
+                    </div>
+                  </li>
+                  <li><a href="Sale.html" class="colorList">Sale</a>
+                  </li>
+                </ul>
+              </section>
+            </nav>
+          </div>
+          <div id="navIcon">
+            <span  style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+          </div>
+        </header>
+      </section>
+      <section id="content">
+        <section class="aligncontent">
+          <aside class="sideList">
+            <ul>
+              <li><a href="#"><h3>Appliances</h3></a></li>
+              <li><a href="appliances.html"><h4>Small Appliances</h4></a></li>
+              <li><a href="appliances.html">Compact Refrigerators</a></li>
+              <li><a href="appliances.html">Vacuums</a></li>
+              <li><a href="appliances.html">Wall Décor</a></li>
+              <li><a href="appliances.html"><h4>Laundry</h4></a></li>
+              <li><a href="appliances.html">Washers</a></li>
+              <li><a href="appliances.html">Dryers</a></li>
+              <li><a href="appliances.html">Washer&Dryer Pairs</a></li>
+              <li><a href="appliances.html"><h4>More</h4></a></li>
+              <li><a href="appliances.html">Save on appliances</a></li>
+              <li><a href="appliances.html">Dinnerware</a></li>
+              <li><a href="appliances.html">New Arrivals</a></li>
+            </ul>
+          </aside>
+        </section>
+        <section class="col-xs-12 col-sm-7 col-md-8 col-lg-9 floatnone mainImage">
+          <figure class="center-block ">
+            <img src="images/roundchair.jpg" id="mainImg">
+            <figcaption>
+            Lorem Ipsum Lorem Ipsum Lorem Ipsum
+            </figcaption>
+          </figure>
+          <figure class="center secondMainImg">
+            <img src="images/light.jpg" id="mainImg">
+            <figcaption>
+            Lorem Ipsum Lorem Ipsum Lorem Ipsum
+            </figcaption>
+          </figure>
+        </section><!--End of figure-->
+      </section><!--End of ccontent id- -->    
+    
+      <section class="displayImages">
+        <div class="container">
+          <figure>
+            <img src="images/livingroom1.jpg" alt="img" class="image">
+            <figcaption><h5>Lorem Ipsum</h5></figcaption>
+          </figure>
+          <div class="overlay">
+            <figure>
+              <img src="images/kids.jpg" alt="kids" class="bottom" >
+              <!-- <figcaption><h5></h5></figcaption> -->
+            </figure>
+          </div>
+        </div>
+        <div class="container ">
+          <figure>
+            <img src="images/chairs1.jpg" alt="img" class="image">
+            <figcaption><h5>Lorem Ipsum</h5></figcaption>
+          </figure>
+          <div class="overlay">
+            <figure>
+              <img src="images/mainImg.jpg" alt="kids" class="bottom bttm2" >
+              <!-- <figcaption><h5>Lorem Ipsum</h5></figcaption> -->
+            </figure>
+          </div>
+        </div><!--image slider-->
+      </section>
+      <section id="rowThree" class="row" >
+        <section class="col-lg-4 col-md-6 col-sm-6 col-xs-12 center-block floatnone">
+          <figure class="centerFig">
+            <figcaption>
+              <img src="images/chairs.jpg" alt="chairs" class="photo">
+              <h5>
+              LOREM IPSUM  &nbsp; $200.00
+              </h5>
+            </figcaption>
+          </figure>
+          <figure class="centerFig">
+            <figcaption>
+            <img src="images/chairs.jpg" alt="chairs" class="photo">
+            <h5>
+            LOREM IPSUM  &nbsp; $200.00
+            </h5>
+            </figcaption>
+          </figure>
+          <figure class="centerFig">
+            <figcaption>
+            <img src="images/chairs.jpg" alt="chairs" class="photo">
+            <h5>
+            LOREM IPSUM  &nbsp; $200.00
+            </h5>
+            </figcaption>
+          </figure>
+          <figure class="centerFig">
+            <figcaption>
+            <img src="images/chairs.jpg" alt="chairs" class="photo">
+            <h5>
+            LOREM IPSUM  &nbsp; $200.00
+            </h5>
+            </figcaption>
+          </figure>
+        </section>  <!-- End of 3rd row-->
+      </section><!--End of container-fluid  -->
+    </section>
+    <footer>
+      <ul class="social" >
+        <li><a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png" class="icons"/><!-- <i class="fa fa-facebook" id="facebook"></i> --></a></li>
+        <li><a href="https://plus.google.com" target="_blank"><img src="images/gPlus.png" class="iconsGPlus"/><!-- <i class="fa fa-google-plus" id="google-plus"></i> --></a></li>
+        <li><a href="https://twitter.com" target="_blank"><img src="images/twitter.png" class="iconsTwitter"/><!-- <i class="fa fa-twitter" id="twitter"></i> --></a></li>
+      </ul>
+      <h6>@copyright 2017</h6>
+      <section >
+        <ul id="footerList">
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </section>
+    </footer>
+    <div class="main modal fade" id="myModal" role="dialog">
+      <div id="first" class="modal-dialog ">
+        <form method="post" action="http://webdevbasics.net/scripts.demo.php" id="myForm">
+          <section class="modal-content">
+            <section class="modal-header">
+              <section class="row">
+                <section class="col-xs224">
+                  <section class="center block panelF">
+                    <section class="form-group">
+                      <input id="loginemail" placeholder="Email" type="text">
+                      <input id="loginpassword" placeholder="Password" type="password">
+                      <input id="login" type="button" value="Sign In">
+                      <p id="one"><a href="#">Forgot Password ?</a></p>
+                      <p id="two">Don't have account? <a class="signup" href="#" id="signup">Sign up here</a></p>
+                    </section>
+                  </section>
+                </section>
+              </section>
+            </section>
+          </section>
+        </form>
+      </div>
+      <!-- Create Div Second For Signup Form-->
+      <div id="second" class="hidden">
+        <form method="post" action="http://webdevbasics.net/scripts.demo.php" id="myForm">
+          <section class="modal-content">
+            <section class="modal-header">
+              <section class="row">
+                <section class="col-xs224">
+                  <section class="center block panelF">
+                    <section class="form-group">
+                      <h3>Create a Free Account</h3>
+                      <!--  <img id="divider" src="images/divider.png"> -->
+                      <input id="name" placeholder="Full Name" type="text">
+                      <input id="registeremail" placeholder="Email" type="text">
+                      <input id="registerpassword" placeholder="Password" type="password">
+                      <input id="contact" placeholder="Contact Number" type="text">
+                      <input id="register" type="button" value="Create your FormGet account">
+                      <p id="two">Already have an account? <a class="signin" href="#" id="signin">Sign in</a></p>
+                    </section>
+                  </section>
+                </section>
+              </section>
+            </section>
+          </section>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
